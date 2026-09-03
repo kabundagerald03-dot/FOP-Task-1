@@ -1,0 +1,10 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name = input("Enter your full name here: ")
+Enter your full name here: GERALD KABUNDA
+>>> birth_year = int(input("Enter your birth_year only: "))
+Enter your birth_year only: 1997
+>>> current_year = 2026
+>>> age = current_year - birth_year
+>>> print(f"Hello {name}! you are {age} years old. Congratulations!")
+Hello GERALD KABUNDA! you are 29 years old. Congratulations!
